@@ -18,7 +18,7 @@ import { Inject, forwardRef } from '@nestjs/common';
   cors: {
     origin: [
       'http://localhost:3000',
-      'https://chat-frontend-6gc3.vercel.app'
+      'https://chat-application-frontend-fawn.vercel.app'
     ],
     credentials: true
   },

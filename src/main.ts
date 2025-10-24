@@ -9,7 +9,7 @@ import { join } from 'path';
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.enableCors({
-    origin: ['http://localhost:3000', 'http://192.168.7.16:3000', 'https://chat-frontend-ten-khaki.vercel.app'],
+    origin: ['http://localhost:3000', 'http://192.168.7.16:3000', 'https://chat-application-frontend-fawn.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
